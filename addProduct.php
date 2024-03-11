@@ -27,7 +27,7 @@ require "connection.php";
             <?php
 
             session_start();
-            if (isset($_SESSION["a"])) {
+            // if (isset($_SESSION["a"])) {
 
             ?>
 
@@ -304,9 +304,9 @@ require "connection.php";
 
                 </div>
             <?php
-            } else {
-                header("location:adminsignin.php");
-            }
+            // } else {
+            //     header("location:adminsignin.php");
+            // }
             ?>
         </div>
     </div>

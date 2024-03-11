@@ -26,7 +26,7 @@
 
             require "connection.php";
 
-            if (isset($_SESSION["u"])) {
+            // if (isset($_SESSION["u"])) {
 
 
                 $umail = $_SESSION["u"]["email"];
@@ -218,7 +218,7 @@
                     </div>
                 </div>
             <?php
-            }
+            // }
             ?>
         </div>
     </div>

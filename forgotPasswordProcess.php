@@ -25,7 +25,7 @@ if (isset($_GET["e"])) {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'thinuka1@gmail.com'; 
-            $mail->Password = 'cacgkohlkzoupihb'; 
+            $mail->Password = 'ucvwpfwrjfmvzhix'; 
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
             $mail->setFrom('thinuka1@gmail.com', 'New Tech'); 
